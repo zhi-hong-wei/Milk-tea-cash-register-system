@@ -199,7 +199,7 @@
     },
     created() {
       axios.post("/commonGoods").then(res => {
-        // console.log(res)
+        console.log(res)
         this.oftenGoods = res.data
       })
       axios.post("/typeGoods").then(res => {
